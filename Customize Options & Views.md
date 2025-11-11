@@ -192,8 +192,6 @@ By default, Excel shows formula *results*. You can toggle to display the **actua
 
 | **Feature** | **Steps Summary** | **Shortcut Keys** |
 |--------------|------------------|-------------------|
-| Hide Worksheet | Right-click → Hide | `Alt + H + O + U + S` |
-| Unhide Worksheet | Right-click → Unhide | `Alt + H + O + U + H` |
 | Hide Rows | Select → Right-click → Hide | `Ctrl + 9` |
 | Unhide Rows | Select around hidden area → Unhide | `Ctrl + Shift + 9` |
 | Hide Columns | Select → Right-click → Hide | `Ctrl + 0` |
