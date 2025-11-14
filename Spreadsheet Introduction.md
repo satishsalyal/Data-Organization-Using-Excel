@@ -1,4 +1,4 @@
-# 📊 **Spreadsheet and its Features and  Applications **
+# 📊  **Spreadsheet and its Features and  Applications**
 
 ---
 
