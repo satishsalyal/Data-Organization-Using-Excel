@@ -25,12 +25,12 @@ A spreadsheet is a computer application that organizes and analyzes data in a gr
 ---
 
 
-# 🧰 **Features of Spreadsheet**
+# 🧰 **Features of Spreadsheet  (Excel)** 
 
 ## 📁 **Data Management & Organization**
 
-* **Grid Interface:** Data is stored in cells, the intersection of rows (numbered) and columns (lettered), providing a structured way to organize information.
-* **Worksheets and Workbooks:** A single Excel file is a workbook that can contain multiple worksheets, allowing related data to be organized in one place.
+* **Grid Interface:** Data is stored in cells, the intersection of rows (numbered) and columns (lettered), providing a structured way to organize information. An Excel spreadsheet, called a workbook, contains one or more worksheets, each a grid of 1,048,576 rows and 16,384 columns for data management. 
+* **Worksheets and Workbooks:** A single Excel file is a workbook that can contain multiple worksheets, allowing related data to be organized in one place. A grid with over 17 billion cells (1,048,576 rows × 16,384 columns) for entering and analyzing data.
 * **Sorting and Filtering:** Users can easily sort data in ascending or descending order and apply filters to view specific subsets of data, which is useful for managing large datasets.
 * **Data Validation:** This feature helps ensure data accuracy and consistency by restricting the type of data that can be entered into specific cells (e.g., only numbers, dates, or items from a dropdown list).
 * **AutoFill and Flash Fill:** These smart tools help users quickly enter data by automatically recognizing patterns and extending data series or formulas to adjacent cells.
