@@ -62,10 +62,6 @@ A spreadsheet is a computer application that organizes and analyzes data in a gr
 
 ---
 
-# 📂 **in in .
-* Scheduling: Used to create employee work schedules, event plans, class schedules, and travel itineraries.
-* Inventory Management: Helps business. 
-
 ---
 
 # 📂 **Applications in Different Areas**
