@@ -1,4 +1,4 @@
-# 📊  **Spreadsheet and its Features and  Applications**
+# 📊  **Spreadsheet (Excel) and its Features and  Applications**
 
 ---
 
