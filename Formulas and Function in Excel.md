@@ -1,5 +1,5 @@
 
-# 📘 **Excel Formulas vs Functions — Complete Guide**
+# 📘 **Excel Formulas vs Functions**
 
 A **formula** is a custom expression created by the user to perform calculations, while a **function** is a predefined, built-in calculation in Excel that performs specific tasks.
 Both start with an equal sign (`=`), but:
