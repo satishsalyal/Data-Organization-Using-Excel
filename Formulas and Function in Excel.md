@@ -95,7 +95,7 @@ To simplify complex or repetitive tasks such as summing ranges, finding averages
 
 ---
 
-# 📚 **Basic Formulas in Excel (20 Most Important)**
+# 📚 **Basic Formulas in Excel **
 
 Below are the essential Excel formulas every user must know.
 
