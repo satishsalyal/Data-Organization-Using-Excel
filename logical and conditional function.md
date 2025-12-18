@@ -82,58 +82,40 @@ criteria: Condition (e.g., "North", ">300")
 
 [sum_range] (optional): Cells to add
 
-📘 Examples
+### 📘 Examples
 🎯 Goal	📐 Formula	📝 Explanation	✅ Result
 Sum sales for "North" region	=SUMIF(A2:A7,"North",D2:D7)	Adds sales where Region = North	$1600
 Sum sales > $400	=SUMIF(D2:D7,">400")	Adds values > 400 (sum_range omitted)	$2350
 Sum units sold by Alice	=SUMIF(B2:B7,"Alice",E2:E7)	Adds units where Salesperson = Alice	26
 
-2️⃣ AVERAGEIF Function
+## 2️⃣ AVERAGEIF Function
 🎯 Purpose
 Calculates the average of numbers that meet a single criterion.
 
-🧪 Syntax
-excel
-Copy code
+### 🧪 Syntax
+```excel
+
 =AVERAGEIF(range, criteria, [average_range])
-📘 Examples
+```
+### 📘 Examples
 🎯 Goal	📐 Formula	📝 Explanation	✅ Result
 Avg sales for Electronics	=AVERAGEIF(C2:C7,"Electronics",D2:D7)	Averages electronics sales	$533.33
 Avg units for sales > $400	=AVERAGEIF(D2:D7,">400",E2:E7)	Averages units where sales > 400	3.5
 Avg sales excluding South	=AVERAGEIF(A2:A7,"<>South",D2:D7)	Excludes South region	$440
 
-3️⃣ COUNTIF Function
+## 3️⃣ COUNTIF Function
 🎯 Purpose
 Counts the number of cells that meet a specified criterion.
 
-🧪 Syntax
-excel
-Copy code
+### 🧪 Syntax
+```excel
+
 =COUNTIF(range, criteria)
-📘 Examples
+```
+### 📘 Examples
 🎯 Goal	📐 Formula	📝 Explanation	✅ Result
 Count sales in North	=COUNTIF(A2:A7,"North")	Counts "North" entries	3
 Count sales > $400	=COUNTIF(D2:D7,">400")	Counts values > 400	4
 Count non-Electronics	=COUNTIF(C2:C7,"<>Electronics")	Excludes Electronics	3
 
-🧾 Summary: Criteria Syntax Rules
-🔢 Numbers
-Copy code
-100
-📝 Text
-arduino
-Copy code
-"North"
-🔀 Logical Operators
-Greater than → ">100"
 
-Less than → "<100"
-
-Not equal → "<>100"
-
-🔗 Cell References
-Use ampersand (&) to combine operator with cell value:
-
-excel
-Copy code
-">"&G1
