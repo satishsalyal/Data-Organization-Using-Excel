@@ -174,6 +174,5 @@ Combine an operator and a cell reference using **&**
 
 ---
 
-✨ *Perfect for quick revision, lab manuals, and GitHub documentation.*
 
 
