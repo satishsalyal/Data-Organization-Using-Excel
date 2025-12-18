@@ -70,52 +70,110 @@ The **criteria** argument can use logical operators to filter data:
 
 ---
 
-## 🔢 **SUMIF Function**
+---
+
+## 1️⃣ **SUMIF Function**
+
+### 🎯 Purpose
+
+Adds numbers in a range **only if they meet a specific condition**.
 
 ### 🧪 Syntax
+
 ```excel
 =SUMIF(range, criteria, [sum_range])
-🧩 Parameters
-range: Cells to evaluate against the criteria
+```
 
-criteria: Condition (e.g., "North", ">300")
+### 🧩 Parameters
 
-[sum_range] (optional): Cells to add
+* **range** – Cells to evaluate against the criteria
+* **criteria** – Condition to apply (e.g., `"North"`, `">300"`)
+* **[sum_range]** *(optional)* – Cells to add if the condition is met
 
 ### 📘 Examples
-🎯 Goal	📐 Formula	📝 Explanation	✅ Result
-Sum sales for "North" region	=SUMIF(A2:A7,"North",D2:D7)	Adds sales where Region = North	$1600
-Sum sales > $400	=SUMIF(D2:D7,">400")	Adds values > 400 (sum_range omitted)	$2350
-Sum units sold by Alice	=SUMIF(B2:B7,"Alice",E2:E7)	Adds units where Salesperson = Alice	26
 
-## 2️⃣ AVERAGEIF Function
-🎯 Purpose
-Calculates the average of numbers that meet a single criterion.
+| Goal                        | Formula                       | Explanation                     | Result    |
+| --------------------------- | ----------------------------- | ------------------------------- | --------- |
+| Sum sales for **North**     | `=SUMIF(A2:A7,"North",D2:D7)` | Adds sales where Region = North | **$1600** |
+| Sum sales **> $400**        | `=SUMIF(D2:D7,">400")`        | Adds values greater than 400    | **$2350** |
+| Sum units sold by **Alice** | `=SUMIF(B2:B7,"Alice",E2:E7)` | Adds Alice’s units sold         | **26**    |
+
+---
+
+## 2️⃣ **AVERAGEIF Function**
+
+### 🎯 Purpose
+
+Calculates the **average of numbers** that meet a single condition.
 
 ### 🧪 Syntax
-```excel
 
+```excel
 =AVERAGEIF(range, criteria, [average_range])
 ```
-### 📘 Examples
-🎯 Goal	📐 Formula	📝 Explanation	✅ Result
-Avg sales for Electronics	=AVERAGEIF(C2:C7,"Electronics",D2:D7)	Averages electronics sales	$533.33
-Avg units for sales > $400	=AVERAGEIF(D2:D7,">400",E2:E7)	Averages units where sales > 400	3.5
-Avg sales excluding South	=AVERAGEIF(A2:A7,"<>South",D2:D7)	Excludes South region	$440
 
-## 3️⃣ COUNTIF Function
-🎯 Purpose
-Counts the number of cells that meet a specified criterion.
+### 📘 Examples
+
+| Goal                              | Formula                                 | Explanation                | Result      |
+| --------------------------------- | --------------------------------------- | -------------------------- | ----------- |
+| Average sales for **Electronics** | `=AVERAGEIF(C2:C7,"Electronics",D2:D7)` | Averages electronics sales | **$533.33** |
+| Avg units for sales **> $400**    | `=AVERAGEIF(D2:D7,">400",E2:E7)`        | Averages units sold        | **3.5**     |
+| Avg sales **excluding South**     | `=AVERAGEIF(A2:A7,"<>South",D2:D7)`     | Excludes South region      | **$440**    |
+
+---
+
+## 3️⃣ **COUNTIF Function**
+
+### 🎯 Purpose
+
+Counts the number of cells that **meet a specified condition**.
 
 ### 🧪 Syntax
-```excel
 
+```excel
 =COUNTIF(range, criteria)
 ```
+
 ### 📘 Examples
-🎯 Goal	📐 Formula	📝 Explanation	✅ Result
-Count sales in North	=COUNTIF(A2:A7,"North")	Counts "North" entries	3
-Count sales > $400	=COUNTIF(D2:D7,">400")	Counts values > 400	4
-Count non-Electronics	=COUNTIF(C2:C7,"<>Electronics")	Excludes Electronics	3
+
+| Goal                      | Formula                           | Explanation                    | Result |
+| ------------------------- | --------------------------------- | ------------------------------ | ------ |
+| Count sales in **North**  | `=COUNTIF(A2:A7,"North")`         | Counts North entries           | **3**  |
+| Count sales **> $400**    | `=COUNTIF(D2:D7,">400")`          | Counts values greater than 400 | **4**  |
+| Count **non-Electronics** | `=COUNTIF(C2:C7,"<>Electronics")` | Excludes Electronics           | **3**  |
+
+---
+
+## 🧾 Summary: Criteria Syntax Rules
+
+### 🔢 Numbers
+
+```excel
+100
+```
+
+### 📝 Text
+
+```excel
+"North"
+```
+
+### 🔀 Logical Operators
+
+* Greater than → `">100"`
+* Less than → `"<100"`
+* Not equal → `"<>100"`
+
+### 🔗 Cell References
+
+Combine an operator and a cell reference using **&**
+
+```excel
+">" & G1
+```
+
+---
+
+✨ *Perfect for quick revision, lab manuals, and GitHub documentation.*
 
 
